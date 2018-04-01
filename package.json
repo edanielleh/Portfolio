@@ -1,0 +1,58 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "react-redux boilerplate using sequelize and express",
+  "main": "index.js",
+  "scripts": {
+    "build-client": "webpack",
+    "build-client-watch": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "start-dev": "NODE_ENV='development' npm run build-client-watch & npm run start-server",
+    "start-server": "nodemon server -e html,js,scss --ignore public --ignore client"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "@babel/preset-stage-2": "^7.0.0-beta.40",
+    "@babel/register": "^7.0.0-beta.40",
+    "axios": "^0.15.3",
+    "axios-mock-adapter": "^1.9.0",
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.16.1",
+    "compression": "^1.7.1",
+    "connect-session-sequelize": "^4.1.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.1",
+    "history": "^4.6.3",
+    "morgan": "^1.9.0",
+    "react": "^16.3.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "sequelize": "^4.37.5",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
