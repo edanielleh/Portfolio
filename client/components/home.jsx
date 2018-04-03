@@ -4,6 +4,9 @@ import PropTypes from "prop-types";
  // <img src= {'css/background.jpg'}/>
 
 class Home extends React.Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
         return ( 
             <div className= "profile-container">
@@ -13,8 +16,8 @@ class Home extends React.Component {
                     <h5>Graduate of Grace Hopper</h5>
                 </div>
                 <div className= "btn-row">
-                    <button className = "btn btn-secondary btn-lg">GitHub</button>
-                    <button className = "btn btn-secondary btn-lg">LinkedIn</button>
+                    <a href= "https://github.com/edanielleh" className = "btn btn-secondary btn-lg">GitHub</a>
+                    <a href= "https://www.linkedin.com/in/danielle-howard-tech/" className = "btn btn-secondary btn-lg">LinkedIn</a>
                 </div>
             </div>
         );

@@ -12,14 +12,20 @@ html {
 }
 .profile-text {
     padding-top: 15%;
-    padding-bottom: 20%;
     padding-left: 5%;
 }
 .btn-row {
+    padding-top: 10%;
     text-align: center;
     padding-bottom: 10%;
 }
 .btn-secondary {
     background-color: black;
     color: white;
+    border: none;
+
+}
+body {
+    min-height: 100%;
+    min-width: 100%;
 }
