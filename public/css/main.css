@@ -10,12 +10,16 @@
 html {
     height: 100%;
 }
-.profile-text{
+.profile-text {
     padding-top: 15%;
     padding-bottom: 20%;
     padding-left: 5%;
 }
-.btn-row{
+.btn-row {
     text-align: center;
     padding-bottom: 10%;
+}
+.btn-secondary {
+    background-color: black;
+    color: white;
 }

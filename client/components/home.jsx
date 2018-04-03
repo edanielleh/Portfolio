@@ -13,8 +13,8 @@ class Home extends React.Component {
                     <h5>Graduate of Grace Hopper</h5>
                 </div>
                 <div className= "btn-row">
-                    <button className = "btn btn-secondary">GitHub</button>
-                    <button className = "btn btn-secondary">LinkedIn</button>
+                    <button className = "btn btn-secondary btn-lg">GitHub</button>
+                    <button className = "btn btn-secondary btn-lg">LinkedIn</button>
                 </div>
             </div>
         );
