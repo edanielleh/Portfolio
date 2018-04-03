@@ -7,17 +7,17 @@ class Navbar extends React.Component {
         return (
             <nav>
             <div>
-                <div className= "navbar navbar-expand-lg navbar-light bg-light">
-                    <ul class="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#"><h5>Home</h5> <span class="sr-only">(current)</span></a>
+                <div className= "navbar navbar-expand-lg navbar-light bg-dark">
+                    <ul className= "nav navbar-nav">
+                        <li>
+                            <a className= "nav-link" href= "#"><h5>Home</h5></a>
                         </li>
-                     <li className="nav-item">
-                            <a className="nav-link" href="#"><h5>Skills</h5></a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#"><h5>Projects</h5></a>
-                    </li>
+                        <li>
+                            <a className= "nav-link" href= "#"><h5>Skills</h5></a>
+                        </li>
+                        <li>
+                            <a className= "nav-link" href= "#"><h5>Projects</h5></a>
+                       </li>
                     </ul>
                   </div>
               </div>
