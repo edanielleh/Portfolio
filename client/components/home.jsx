@@ -10,6 +10,7 @@ class Home extends React.Component {
     render() {
         return ( 
             <div className= "profile-container">
+            <div className= "jumbotron">
                 <div className= "profile-text">
                     <h1>I'm Danielle Howard</h1>
                     <h5>An Aspiring Full Stack Developer</h5>
@@ -18,6 +19,7 @@ class Home extends React.Component {
                 <div className= "btn-row">
                     <a href= "https://github.com/edanielleh" className = "btn btn-secondary btn-lg">GitHub</a>
                     <a href= "https://www.linkedin.com/in/danielle-howard-tech/" className = "btn btn-secondary btn-lg">LinkedIn</a>
+                </div>
                 </div>
             </div>
         );
