@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {Router} from 'react-router-dom';
 import history from './history';
 import Application from './application';
-// import './socketConnection';
+import './socketConnection';
 
 ReactDOM.render(
     <Router history={history}>
@@ -11,3 +11,4 @@ ReactDOM.render(
     </Router>,
   document.getElementById('application')
 );
+
