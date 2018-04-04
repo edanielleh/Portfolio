@@ -10,17 +10,19 @@ class Skills extends React.Component {
     render() {
         return ( 
             <div className= "profile-container">
-            {/* <h1 className = "skills-title">Ipsum</h1>
-               <div className= "row skills-row">
-                <div className= "col-md-6 left-col">
-                    <h5>Ispum</h5>
-                    <h5>Dollar</h5>
+                <div className= "jumbotron">
+                <h1 className = "skills-title">Ipsum</h1>
+                <div className= "row skills-row">
+                    <div className= "col-md-6 left-col">
+                        <h5>Ispum</h5>
+                        <h5>Dollar</h5>
+                    </div>
+                    <div className= "col-md-6 right-col">
+                        <h5>Ispum</h5>
+                        <h5>Dollar</h5>
+                    </div>
+                    </div>
                 </div>
-                <div className= "col-md-6 right-col">
-                    <h5>Ispum</h5>
-                    <h5>Dollar</h5>
-                </div>
-                </div> */}
             </div>
         );
     };
