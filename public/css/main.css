@@ -1,11 +1,8 @@
-.profile-container{
-    background-image: url("background.jpg");
-    min-height: 100%;
-    min-width: 100%;
-    background-size: 100% 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* NavBar */
+
+.navbar {
+    background-color: black !important;
+    border: none;
 }
 html {
     height: 100%;
@@ -28,4 +25,23 @@ html {
 body {
     min-height: 100%;
     min-width: 100%;
+}
+
+/* Skills Page  */
+
+.skills-row {
+    text-align: center;
+}
+
+.skills-title {
+    text-align: center;
+    text-decoration: underline;
+} 
+
+.left-col {
+    text-align: right;
+}
+
+.right-col {
+    text-align: left;
 }
